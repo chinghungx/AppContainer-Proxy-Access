@@ -23,4 +23,8 @@ To run `Update_WinHTTP_IE_Proxy.bat`, execute the following command in Command P
 ```
 curl "https://raw.githubusercontent.com/chinghung62/AppContainer-Proxy-Access/main/Scripts/Update_WinHTTP_IE_Proxy.bat" > "%HOMEDRIVE%%HOMEPATH%\Update_WinHTTP_IE_Proxy.bat" && "%HOMEDRIVE%%HOMEPATH%\Update_WinHTTP_IE_Proxy.bat"
 ```
-> **Note:** Downloaded scripts will be located at `%HOMEDRIVE%%HOMEPATH%`.
+> If you are using a proxy, add `-x {host}:{port}` after `curl`.
+
+<br>
+
+**Note:** All downloaded scripts will be located at `%HOMEDRIVE%%HOMEPATH%`.
