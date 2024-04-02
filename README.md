@@ -9,19 +9,19 @@ These scripts are build for Windows operating system environment. Download and r
 ### *AppxPackage_Loopback_Exemption.ps1*
 To run `AppxPackage_Loopback_Exemption.ps1`, execute the following command in Command Prompt:
 ```
-curl "https://raw.githubusercontent.com/chinghung62/AppContainer-Proxy-Access/main/Scripts/AppxPackage_Loopback_Exemption.ps1" > "%HOMEDRIVE%%HOMEPATH%\Downloads\AppxPackage_Loopback_Exemption.ps1" && PowerShell -Command ".'%HOMEDRIVE%%HOMEPATH%\Downloads\AppxPackage_Loopback_Exemption.ps1'"
+curl "https://raw.githubusercontent.com/chinghungx/AppContainer-Proxy-Access/main/Scripts/AppxPackage_Loopback_Exemption.ps1" > "%HOMEDRIVE%%HOMEPATH%\Downloads\AppxPackage_Loopback_Exemption.ps1" && PowerShell -Command ".'%HOMEDRIVE%%HOMEPATH%\Downloads\AppxPackage_Loopback_Exemption.ps1'"
 ```
 > If you are using a proxy, add `-x {host}:{port}` after `curl`.
 
 . . . or in Windows PowerShell:
 ```
-(Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chinghung62/AppContainer-Proxy-Access/main/Scripts/AppxPackage_Loopback_Exemption.ps1").Content > "$ENV:HOMEDRIVE$ENV:HOMEPATH\Downloads\AppxPackage_Loopback_Exemption.ps1"; ."$ENV:HOMEDRIVE$ENV:HOMEPATH\Downloads\AppxPackage_Loopback_Exemption.ps1"
+(Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chinghungx/AppContainer-Proxy-Access/main/Scripts/AppxPackage_Loopback_Exemption.ps1").Content > "$ENV:HOMEDRIVE$ENV:HOMEPATH\Downloads\AppxPackage_Loopback_Exemption.ps1"; ."$ENV:HOMEDRIVE$ENV:HOMEPATH\Downloads\AppxPackage_Loopback_Exemption.ps1"
 ```
 
 ### *Update_WinHTTP_IE_Proxy.bat*
 To run `Update_WinHTTP_IE_Proxy.bat`, execute the following command in Command Prompt with **administrator privileges**:
 ```
-curl "https://raw.githubusercontent.com/chinghung62/AppContainer-Proxy-Access/main/Scripts/Update_WinHTTP_IE_Proxy.bat" > "%HOMEDRIVE%%HOMEPATH%\Downloads\Update_WinHTTP_IE_Proxy.bat" && "%HOMEDRIVE%%HOMEPATH%\Downloads\Update_WinHTTP_IE_Proxy.bat"
+curl "https://raw.githubusercontent.com/chinghungx/AppContainer-Proxy-Access/main/Scripts/Update_WinHTTP_IE_Proxy.bat" > "%HOMEDRIVE%%HOMEPATH%\Downloads\Update_WinHTTP_IE_Proxy.bat" && "%HOMEDRIVE%%HOMEPATH%\Downloads\Update_WinHTTP_IE_Proxy.bat"
 ```
 > If you are using a proxy, add `-x {host}:{port}` after `curl`.
 
